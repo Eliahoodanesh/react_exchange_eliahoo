@@ -1,0 +1,16 @@
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.score-value {
+    font-size: 40px;
+}
+
+.score-to {
+    font-style: italic;
+    font-weight: bold;
+}

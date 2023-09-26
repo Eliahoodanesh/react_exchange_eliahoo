@@ -1,0 +1,58 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../public/pic.jpg');
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #FF0000, #FFFF00, #00FF00, #0000FF, #FF00FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 0 0 150px 0;
+}
+
+.center-clock {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 30vh;
+  /* Center within the viewport height */
+}
+
+.button {
+  align-items: center;
+  height: 0vh;
+}
+
+.center-input {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 0vh;
+  /* Center within the viewport height */
+}
